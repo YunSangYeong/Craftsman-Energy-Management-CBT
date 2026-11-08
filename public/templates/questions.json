@@ -1,0 +1,37 @@
+[
+  {
+    "id": "IMPORT-EXAMPLE-001",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "현열",
+    "question": "물 25 kg을 20 K 가열한다. 비열 4.2 kJ/(kg·K), 증발과 손실이 없을 때 필요한 열량은?",
+    "choices": [
+      "1050.00 kJ",
+      "2100.00 kJ",
+      "3150.00 kJ",
+      "4200.00 kJ"
+    ],
+    "answer": 2,
+    "explanation": "Q = mcΔT = 25 × 4.2 × 20 = 2100.00 kJ. 상변화와 열손실은 없다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "pending",
+    "reviewNote": "양식 예제: 등록 전 독립 검토 필요",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "sensible",
+    "calculation": {
+      "kind": "sensible",
+      "values": [
+        12,
+        4.2,
+        11
+      ],
+      "result": 554.4000000000001,
+      "unit": "kJ",
+      "precision": 2
+    }
+  }
+]
