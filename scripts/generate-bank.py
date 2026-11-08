@@ -15,6 +15,9 @@ for n in range(1,11):
  for i,(kind,topic,values,result,unit,question,explanation) in enumerate(cases):
   correct=n%4; choices=[f'{result*x:.2f} {unit}' for x in [0.5,1.5,2,3]];choices[correct]=f'{result:.2f} {unit}'
   bank.append(dict(id=f'ENERGY-{kind}-{n:02}',subject='열설비 설치·운전 및 관리',topic=topic,question=question,choices=choices,answer=correct+1,explanation=explanation,difficulty='하',year=None,session=None,type='original',sourceUrl='https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md',verificationStatus='reviewed',reviewNote='AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.',version='main',rights='본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시',family=kind,calculation=dict(kind=kind,values=values,result=result,unit=unit,precision=2)))
+from expanded_bank import build_expansion
+bank.extend(build_expansion())
+assert len(bank) == 1000
 (root/'src/data').mkdir(exist_ok=True)
 (root/'src/data/questions.json').write_text(json.dumps(bank,ensure_ascii=False,indent=2)+'\n')
 example={**bank[0],'id':'IMPORT-EXAMPLE-001','verificationStatus':'pending','reviewNote':'양식 예제: 등록 전 독립 검토 필요','question':'물 25 kg을 20 K 가열한다. 비열 4.2 kJ/(kg·K), 증발과 손실이 없을 때 필요한 열량은?','choices':['1050.00 kJ','2100.00 kJ','3150.00 kJ','4200.00 kJ'],'answer':2,'explanation':'Q = mcΔT = 25 × 4.2 × 20 = 2100.00 kJ. 상변화와 열손실은 없다.'}

@@ -31,6 +31,12 @@ export interface Question {
   };
 }
 export const BASE_BANK = [...energyBank] as Question[];
+export const BANK_SUMMARY = {
+  numeric: BASE_BANK.filter(q => q.calculation).length,
+  conceptual: BASE_BANK.filter(q => !q.calculation).length,
+  families: new Set(BASE_BANK.filter(q => q.calculation).map(q => q.family)).size,
+  shortage: Math.max(0, 1000 - BASE_BANK.filter(q => q.verificationStatus === "reviewed").length),
+};
 export const TYPE_LABEL = {
   original: "자체 제작",
   past: "원문 기출",

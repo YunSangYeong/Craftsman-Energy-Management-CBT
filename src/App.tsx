@@ -41,6 +41,7 @@ import {
 import {
   answerExam,
   BASE_BANK,
+  BANK_SUMMARY,
   checkPractice,
   createExam,
   emptyStore,
@@ -1785,7 +1786,7 @@ function BankManager({
             기본 문항은 {BASE_BANK.length}개 모두 자체 제작입니다.
           </strong>
           <br />
-          원문 기출 0 · 복원문제 0 · 자체 제작 60 (6유형 × 숫자 조건 10개). 목표 1,000개 대비 940개 부족. 시험 규칙은 공식 확인 대기인 학습용 설정입니다. 공식 자료 접근 제한으로 기출 원문 및
+          원문 기출 0 · 복원문제 0 · 자체 제작 {BASE_BANK.length}개. 계산 조건 변형 {BANK_SUMMARY.numeric}개({BANK_SUMMARY.families}유형) · 개념형 {BANK_SUMMARY.conceptual}개. 목표 1,000개 대비 부족 {BANK_SUMMARY.shortage}개. 시험 규칙은 공식 확인 대기인 학습용 설정입니다. 공식 자료 접근 제한으로 기출 원문 및
           출제기준 대조는 완료하지 못했습니다. 기본 문항은 내부 검토 및 계산
           검증을 거쳤으며 외부 전문가 검수는 받지 않았습니다.
         </div>

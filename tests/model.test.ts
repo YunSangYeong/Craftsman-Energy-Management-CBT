@@ -35,13 +35,14 @@ describe("모의시험 및 절대 시간", () => {
     expect(exam.deadline).toBe(3601000);
     expect(exam.questions.some((q) => q.id === "pending")).toBe(false);
   });
-  it("6개 family를 모두 포함하고 부족한 슬롯은 고유 ID로 보충한다", () => {
+  it("숫자 변형 family 중복 없이 한 회 60문항을 추출한다", () => {
     for (let round = 0; round < 20; round++) {
       const exam = createExam(bank, "main");
       const families = exam.questions.flatMap((q) =>
         q.family ? [q.family] : [],
       );
-      expect(new Set(families).size).toBe(6);
+      expect(new Set(families).size).toBe(families.length);
+      expect(exam.questions.filter(q=>!q.family).length).toBeGreaterThanOrEqual(24);
       expect(new Set(exam.questions.map(q => q.id)).size).toBe(60);
     }
   });
@@ -111,12 +112,12 @@ describe("랜덤 학습", () => {
   it("한 과목의 모든 문항을 순회하기 전에는 중복이 없다", () => {
     let p = startPractice(bank, "main", "열설비 설치·운전 및 관리");
     const ids = new Set<string>();
-    for (let i = 0; i < 60; i++) {
+    for (let i = 0; i < bank.length; i++) {
       expect(ids.has(p.currentId)).toBe(false);
       ids.add(p.currentId);
       p = nextPractice(p, bank);
     }
-    expect(ids.size).toBe(60);
+    expect(ids.size).toBe(bank.length);
     expect(p.subject).toBe("열설비 설치·운전 및 관리");
   });
   it("즉시 채점·연속 정답·통계를 저장하며 중복 채점을 방지한다", () => {
