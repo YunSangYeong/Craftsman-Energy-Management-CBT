@@ -1,0 +1,2052 @@
+[
+  {
+    "id": "ENERGY-sensible-01",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "현열",
+    "question": "물 12 kg을 11 K만큼 가열한다. 비열은 4.2 kJ/(kg·K)로 일정하고 증발과 열손실이 없을 때 필요한 열량은?",
+    "choices": [
+      "277.20 kJ",
+      "554.40 kJ",
+      "1108.80 kJ",
+      "1663.20 kJ"
+    ],
+    "answer": 2,
+    "explanation": "현열 Q = mcΔT. 질량 12 kg × 비열 4.2 kJ/(kg·K) × 온도차 11 K = 554.40 kJ. 온도차 1 K는 온도차 1 ℃와 같다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "sensible",
+    "calculation": {
+      "kind": "sensible",
+      "values": [
+        12,
+        4.2,
+        11
+      ],
+      "result": 554.4000000000001,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-efficiency-01",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "보일러 효율",
+    "question": "보일러 연료 투입 열량은 1100 kJ이고 열효율은 62%이다. 유효하게 이용한 열량은?",
+    "choices": [
+      "341.00 kJ",
+      "682.00 kJ",
+      "1364.00 kJ",
+      "2046.00 kJ"
+    ],
+    "answer": 2,
+    "explanation": "효율 = 유효 열량 / 투입 열량 × 100. 유효 열량 = 1100 × 62/100 = 682.00 kJ.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "efficiency",
+    "calculation": {
+      "kind": "efficiency",
+      "values": [
+        1100,
+        62
+      ],
+      "result": 682.0,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-fuel-01",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "연료 열량",
+    "question": "저위발열량 42,000 kJ/kg인 연료 21 kg이 완전 연소한다. 저위발열량 기준 투입 열량은?",
+    "choices": [
+      "441000.00 kJ",
+      "882000.00 kJ",
+      "1764000.00 kJ",
+      "2646000.00 kJ"
+    ],
+    "answer": 2,
+    "explanation": "투입 열량 = 연료 질량 × 저위발열량 = 21 kg × 42,000 kJ/kg = 882000.00 kJ. 보일러의 실제 유효 열량은 효율을 별도로 반영한다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "fuel",
+    "calculation": {
+      "kind": "fuel",
+      "values": [
+        21,
+        42000
+      ],
+      "result": 882000,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-pressure-01",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "압력",
+    "question": "면적 3 m²에 수직으로 균일한 힘 330 kN이 작용한다. 이 힘에 의한 압력은?",
+    "choices": [
+      "55.00 kPa",
+      "110.00 kPa",
+      "220.00 kPa",
+      "330.00 kPa"
+    ],
+    "answer": 2,
+    "explanation": "압력 p = F/A = 330 kN / 3 m² = 110.00 kPa. 1 kN/m² = 1 kPa이다. 절대압력과 게이지압력의 변환 문제는 아니다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "pressure",
+    "calculation": {
+      "kind": "pressure",
+      "values": [
+        330,
+        3
+      ],
+      "result": 110.0,
+      "unit": "kPa",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-flow-01",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "유량",
+    "question": "체적 유량 11 m³/h가 3시간 동안 일정하게 유지된다. 통과한 유체의 체적은?",
+    "choices": [
+      "16.50 m³",
+      "33.00 m³",
+      "66.00 m³",
+      "99.00 m³"
+    ],
+    "answer": 2,
+    "explanation": "체적 V = 체적 유량 × 시간 = 11 m³/h × 3 h = 33.00 m³. 누설 없이 유량이 일정한 조건이다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "flow",
+    "calculation": {
+      "kind": "flow",
+      "values": [
+        11,
+        3
+      ],
+      "result": 33,
+      "unit": "m³",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-power-01",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "열출력",
+    "question": "일정한 열출력 6 kW인 가열기가 3시간 작동한다. 방출한 총 열량은?",
+    "choices": [
+      "32400.00 kJ",
+      "64800.00 kJ",
+      "129600.00 kJ",
+      "194400.00 kJ"
+    ],
+    "answer": 2,
+    "explanation": "1 kW = 1 kJ/s이고 3 h = 10800 s. Q = 출력 × 시간 = 6 × 10800 = 64800.00 kJ. 대상 물체의 흡수 열량은 손실에 따라 다를 수 있다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "power",
+    "calculation": {
+      "kind": "power",
+      "values": [
+        6,
+        3
+      ],
+      "result": 64800,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-sensible-02",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "현열",
+    "question": "물 14 kg을 12 K만큼 가열한다. 비열은 4.2 kJ/(kg·K)로 일정하고 증발과 열손실이 없을 때 필요한 열량은?",
+    "choices": [
+      "352.80 kJ",
+      "1058.40 kJ",
+      "705.60 kJ",
+      "2116.80 kJ"
+    ],
+    "answer": 3,
+    "explanation": "현열 Q = mcΔT. 질량 14 kg × 비열 4.2 kJ/(kg·K) × 온도차 12 K = 705.60 kJ. 온도차 1 K는 온도차 1 ℃와 같다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "sensible",
+    "calculation": {
+      "kind": "sensible",
+      "values": [
+        14,
+        4.2,
+        12
+      ],
+      "result": 705.6,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-efficiency-02",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "보일러 효율",
+    "question": "보일러 연료 투입 열량은 1200 kJ이고 열효율은 64%이다. 유효하게 이용한 열량은?",
+    "choices": [
+      "384.00 kJ",
+      "1152.00 kJ",
+      "768.00 kJ",
+      "2304.00 kJ"
+    ],
+    "answer": 3,
+    "explanation": "효율 = 유효 열량 / 투입 열량 × 100. 유효 열량 = 1200 × 64/100 = 768.00 kJ.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "efficiency",
+    "calculation": {
+      "kind": "efficiency",
+      "values": [
+        1200,
+        64
+      ],
+      "result": 768.0,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-fuel-02",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "연료 열량",
+    "question": "저위발열량 42,000 kJ/kg인 연료 22 kg이 완전 연소한다. 저위발열량 기준 투입 열량은?",
+    "choices": [
+      "462000.00 kJ",
+      "1386000.00 kJ",
+      "924000.00 kJ",
+      "2772000.00 kJ"
+    ],
+    "answer": 3,
+    "explanation": "투입 열량 = 연료 질량 × 저위발열량 = 22 kg × 42,000 kJ/kg = 924000.00 kJ. 보일러의 실제 유효 열량은 효율을 별도로 반영한다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "fuel",
+    "calculation": {
+      "kind": "fuel",
+      "values": [
+        22,
+        42000
+      ],
+      "result": 924000,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-pressure-02",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "압력",
+    "question": "면적 4 m²에 수직으로 균일한 힘 480 kN이 작용한다. 이 힘에 의한 압력은?",
+    "choices": [
+      "60.00 kPa",
+      "180.00 kPa",
+      "120.00 kPa",
+      "360.00 kPa"
+    ],
+    "answer": 3,
+    "explanation": "압력 p = F/A = 480 kN / 4 m² = 120.00 kPa. 1 kN/m² = 1 kPa이다. 절대압력과 게이지압력의 변환 문제는 아니다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "pressure",
+    "calculation": {
+      "kind": "pressure",
+      "values": [
+        480,
+        4
+      ],
+      "result": 120.0,
+      "unit": "kPa",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-flow-02",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "유량",
+    "question": "체적 유량 12 m³/h가 4시간 동안 일정하게 유지된다. 통과한 유체의 체적은?",
+    "choices": [
+      "24.00 m³",
+      "72.00 m³",
+      "48.00 m³",
+      "144.00 m³"
+    ],
+    "answer": 3,
+    "explanation": "체적 V = 체적 유량 × 시간 = 12 m³/h × 4 h = 48.00 m³. 누설 없이 유량이 일정한 조건이다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "flow",
+    "calculation": {
+      "kind": "flow",
+      "values": [
+        12,
+        4
+      ],
+      "result": 48,
+      "unit": "m³",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-power-02",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "열출력",
+    "question": "일정한 열출력 7 kW인 가열기가 4시간 작동한다. 방출한 총 열량은?",
+    "choices": [
+      "50400.00 kJ",
+      "151200.00 kJ",
+      "100800.00 kJ",
+      "302400.00 kJ"
+    ],
+    "answer": 3,
+    "explanation": "1 kW = 1 kJ/s이고 4 h = 14400 s. Q = 출력 × 시간 = 7 × 14400 = 100800.00 kJ. 대상 물체의 흡수 열량은 손실에 따라 다를 수 있다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "power",
+    "calculation": {
+      "kind": "power",
+      "values": [
+        7,
+        4
+      ],
+      "result": 100800,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-sensible-03",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "현열",
+    "question": "물 16 kg을 13 K만큼 가열한다. 비열은 4.2 kJ/(kg·K)로 일정하고 증발과 열손실이 없을 때 필요한 열량은?",
+    "choices": [
+      "436.80 kJ",
+      "1310.40 kJ",
+      "1747.20 kJ",
+      "873.60 kJ"
+    ],
+    "answer": 4,
+    "explanation": "현열 Q = mcΔT. 질량 16 kg × 비열 4.2 kJ/(kg·K) × 온도차 13 K = 873.60 kJ. 온도차 1 K는 온도차 1 ℃와 같다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "sensible",
+    "calculation": {
+      "kind": "sensible",
+      "values": [
+        16,
+        4.2,
+        13
+      ],
+      "result": 873.6,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-efficiency-03",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "보일러 효율",
+    "question": "보일러 연료 투입 열량은 1300 kJ이고 열효율은 66%이다. 유효하게 이용한 열량은?",
+    "choices": [
+      "429.00 kJ",
+      "1287.00 kJ",
+      "1716.00 kJ",
+      "858.00 kJ"
+    ],
+    "answer": 4,
+    "explanation": "효율 = 유효 열량 / 투입 열량 × 100. 유효 열량 = 1300 × 66/100 = 858.00 kJ.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "efficiency",
+    "calculation": {
+      "kind": "efficiency",
+      "values": [
+        1300,
+        66
+      ],
+      "result": 858.0,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-fuel-03",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "연료 열량",
+    "question": "저위발열량 42,000 kJ/kg인 연료 23 kg이 완전 연소한다. 저위발열량 기준 투입 열량은?",
+    "choices": [
+      "483000.00 kJ",
+      "1449000.00 kJ",
+      "1932000.00 kJ",
+      "966000.00 kJ"
+    ],
+    "answer": 4,
+    "explanation": "투입 열량 = 연료 질량 × 저위발열량 = 23 kg × 42,000 kJ/kg = 966000.00 kJ. 보일러의 실제 유효 열량은 효율을 별도로 반영한다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "fuel",
+    "calculation": {
+      "kind": "fuel",
+      "values": [
+        23,
+        42000
+      ],
+      "result": 966000,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-pressure-03",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "압력",
+    "question": "면적 5 m²에 수직으로 균일한 힘 650 kN이 작용한다. 이 힘에 의한 압력은?",
+    "choices": [
+      "65.00 kPa",
+      "195.00 kPa",
+      "260.00 kPa",
+      "130.00 kPa"
+    ],
+    "answer": 4,
+    "explanation": "압력 p = F/A = 650 kN / 5 m² = 130.00 kPa. 1 kN/m² = 1 kPa이다. 절대압력과 게이지압력의 변환 문제는 아니다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "pressure",
+    "calculation": {
+      "kind": "pressure",
+      "values": [
+        650,
+        5
+      ],
+      "result": 130.0,
+      "unit": "kPa",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-flow-03",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "유량",
+    "question": "체적 유량 13 m³/h가 5시간 동안 일정하게 유지된다. 통과한 유체의 체적은?",
+    "choices": [
+      "32.50 m³",
+      "97.50 m³",
+      "130.00 m³",
+      "65.00 m³"
+    ],
+    "answer": 4,
+    "explanation": "체적 V = 체적 유량 × 시간 = 13 m³/h × 5 h = 65.00 m³. 누설 없이 유량이 일정한 조건이다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "flow",
+    "calculation": {
+      "kind": "flow",
+      "values": [
+        13,
+        5
+      ],
+      "result": 65,
+      "unit": "m³",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-power-03",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "열출력",
+    "question": "일정한 열출력 8 kW인 가열기가 5시간 작동한다. 방출한 총 열량은?",
+    "choices": [
+      "72000.00 kJ",
+      "216000.00 kJ",
+      "288000.00 kJ",
+      "144000.00 kJ"
+    ],
+    "answer": 4,
+    "explanation": "1 kW = 1 kJ/s이고 5 h = 18000 s. Q = 출력 × 시간 = 8 × 18000 = 144000.00 kJ. 대상 물체의 흡수 열량은 손실에 따라 다를 수 있다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "power",
+    "calculation": {
+      "kind": "power",
+      "values": [
+        8,
+        5
+      ],
+      "result": 144000,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-sensible-04",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "현열",
+    "question": "물 18 kg을 14 K만큼 가열한다. 비열은 4.2 kJ/(kg·K)로 일정하고 증발과 열손실이 없을 때 필요한 열량은?",
+    "choices": [
+      "1058.40 kJ",
+      "1587.60 kJ",
+      "2116.80 kJ",
+      "3175.20 kJ"
+    ],
+    "answer": 1,
+    "explanation": "현열 Q = mcΔT. 질량 18 kg × 비열 4.2 kJ/(kg·K) × 온도차 14 K = 1058.40 kJ. 온도차 1 K는 온도차 1 ℃와 같다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "sensible",
+    "calculation": {
+      "kind": "sensible",
+      "values": [
+        18,
+        4.2,
+        14
+      ],
+      "result": 1058.4,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-efficiency-04",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "보일러 효율",
+    "question": "보일러 연료 투입 열량은 1400 kJ이고 열효율은 68%이다. 유효하게 이용한 열량은?",
+    "choices": [
+      "952.00 kJ",
+      "1428.00 kJ",
+      "1904.00 kJ",
+      "2856.00 kJ"
+    ],
+    "answer": 1,
+    "explanation": "효율 = 유효 열량 / 투입 열량 × 100. 유효 열량 = 1400 × 68/100 = 952.00 kJ.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "efficiency",
+    "calculation": {
+      "kind": "efficiency",
+      "values": [
+        1400,
+        68
+      ],
+      "result": 952.0,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-fuel-04",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "연료 열량",
+    "question": "저위발열량 42,000 kJ/kg인 연료 24 kg이 완전 연소한다. 저위발열량 기준 투입 열량은?",
+    "choices": [
+      "1008000.00 kJ",
+      "1512000.00 kJ",
+      "2016000.00 kJ",
+      "3024000.00 kJ"
+    ],
+    "answer": 1,
+    "explanation": "투입 열량 = 연료 질량 × 저위발열량 = 24 kg × 42,000 kJ/kg = 1008000.00 kJ. 보일러의 실제 유효 열량은 효율을 별도로 반영한다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "fuel",
+    "calculation": {
+      "kind": "fuel",
+      "values": [
+        24,
+        42000
+      ],
+      "result": 1008000,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-pressure-04",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "압력",
+    "question": "면적 6 m²에 수직으로 균일한 힘 840 kN이 작용한다. 이 힘에 의한 압력은?",
+    "choices": [
+      "140.00 kPa",
+      "210.00 kPa",
+      "280.00 kPa",
+      "420.00 kPa"
+    ],
+    "answer": 1,
+    "explanation": "압력 p = F/A = 840 kN / 6 m² = 140.00 kPa. 1 kN/m² = 1 kPa이다. 절대압력과 게이지압력의 변환 문제는 아니다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "pressure",
+    "calculation": {
+      "kind": "pressure",
+      "values": [
+        840,
+        6
+      ],
+      "result": 140.0,
+      "unit": "kPa",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-flow-04",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "유량",
+    "question": "체적 유량 14 m³/h가 6시간 동안 일정하게 유지된다. 통과한 유체의 체적은?",
+    "choices": [
+      "84.00 m³",
+      "126.00 m³",
+      "168.00 m³",
+      "252.00 m³"
+    ],
+    "answer": 1,
+    "explanation": "체적 V = 체적 유량 × 시간 = 14 m³/h × 6 h = 84.00 m³. 누설 없이 유량이 일정한 조건이다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "flow",
+    "calculation": {
+      "kind": "flow",
+      "values": [
+        14,
+        6
+      ],
+      "result": 84,
+      "unit": "m³",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-power-04",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "열출력",
+    "question": "일정한 열출력 9 kW인 가열기가 6시간 작동한다. 방출한 총 열량은?",
+    "choices": [
+      "194400.00 kJ",
+      "291600.00 kJ",
+      "388800.00 kJ",
+      "583200.00 kJ"
+    ],
+    "answer": 1,
+    "explanation": "1 kW = 1 kJ/s이고 6 h = 21600 s. Q = 출력 × 시간 = 9 × 21600 = 194400.00 kJ. 대상 물체의 흡수 열량은 손실에 따라 다를 수 있다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "power",
+    "calculation": {
+      "kind": "power",
+      "values": [
+        9,
+        6
+      ],
+      "result": 194400,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-sensible-05",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "현열",
+    "question": "물 20 kg을 15 K만큼 가열한다. 비열은 4.2 kJ/(kg·K)로 일정하고 증발과 열손실이 없을 때 필요한 열량은?",
+    "choices": [
+      "630.00 kJ",
+      "1260.00 kJ",
+      "2520.00 kJ",
+      "3780.00 kJ"
+    ],
+    "answer": 2,
+    "explanation": "현열 Q = mcΔT. 질량 20 kg × 비열 4.2 kJ/(kg·K) × 온도차 15 K = 1260.00 kJ. 온도차 1 K는 온도차 1 ℃와 같다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "sensible",
+    "calculation": {
+      "kind": "sensible",
+      "values": [
+        20,
+        4.2,
+        15
+      ],
+      "result": 1260.0,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-efficiency-05",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "보일러 효율",
+    "question": "보일러 연료 투입 열량은 1500 kJ이고 열효율은 70%이다. 유효하게 이용한 열량은?",
+    "choices": [
+      "525.00 kJ",
+      "1050.00 kJ",
+      "2100.00 kJ",
+      "3150.00 kJ"
+    ],
+    "answer": 2,
+    "explanation": "효율 = 유효 열량 / 투입 열량 × 100. 유효 열량 = 1500 × 70/100 = 1050.00 kJ.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "efficiency",
+    "calculation": {
+      "kind": "efficiency",
+      "values": [
+        1500,
+        70
+      ],
+      "result": 1050.0,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-fuel-05",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "연료 열량",
+    "question": "저위발열량 42,000 kJ/kg인 연료 25 kg이 완전 연소한다. 저위발열량 기준 투입 열량은?",
+    "choices": [
+      "525000.00 kJ",
+      "1050000.00 kJ",
+      "2100000.00 kJ",
+      "3150000.00 kJ"
+    ],
+    "answer": 2,
+    "explanation": "투입 열량 = 연료 질량 × 저위발열량 = 25 kg × 42,000 kJ/kg = 1050000.00 kJ. 보일러의 실제 유효 열량은 효율을 별도로 반영한다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "fuel",
+    "calculation": {
+      "kind": "fuel",
+      "values": [
+        25,
+        42000
+      ],
+      "result": 1050000,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-pressure-05",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "압력",
+    "question": "면적 7 m²에 수직으로 균일한 힘 1050 kN이 작용한다. 이 힘에 의한 압력은?",
+    "choices": [
+      "75.00 kPa",
+      "150.00 kPa",
+      "300.00 kPa",
+      "450.00 kPa"
+    ],
+    "answer": 2,
+    "explanation": "압력 p = F/A = 1050 kN / 7 m² = 150.00 kPa. 1 kN/m² = 1 kPa이다. 절대압력과 게이지압력의 변환 문제는 아니다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "pressure",
+    "calculation": {
+      "kind": "pressure",
+      "values": [
+        1050,
+        7
+      ],
+      "result": 150.0,
+      "unit": "kPa",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-flow-05",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "유량",
+    "question": "체적 유량 15 m³/h가 7시간 동안 일정하게 유지된다. 통과한 유체의 체적은?",
+    "choices": [
+      "52.50 m³",
+      "105.00 m³",
+      "210.00 m³",
+      "315.00 m³"
+    ],
+    "answer": 2,
+    "explanation": "체적 V = 체적 유량 × 시간 = 15 m³/h × 7 h = 105.00 m³. 누설 없이 유량이 일정한 조건이다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "flow",
+    "calculation": {
+      "kind": "flow",
+      "values": [
+        15,
+        7
+      ],
+      "result": 105,
+      "unit": "m³",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-power-05",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "열출력",
+    "question": "일정한 열출력 10 kW인 가열기가 7시간 작동한다. 방출한 총 열량은?",
+    "choices": [
+      "126000.00 kJ",
+      "252000.00 kJ",
+      "504000.00 kJ",
+      "756000.00 kJ"
+    ],
+    "answer": 2,
+    "explanation": "1 kW = 1 kJ/s이고 7 h = 25200 s. Q = 출력 × 시간 = 10 × 25200 = 252000.00 kJ. 대상 물체의 흡수 열량은 손실에 따라 다를 수 있다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "power",
+    "calculation": {
+      "kind": "power",
+      "values": [
+        10,
+        7
+      ],
+      "result": 252000,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-sensible-06",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "현열",
+    "question": "물 22 kg을 16 K만큼 가열한다. 비열은 4.2 kJ/(kg·K)로 일정하고 증발과 열손실이 없을 때 필요한 열량은?",
+    "choices": [
+      "739.20 kJ",
+      "2217.60 kJ",
+      "1478.40 kJ",
+      "4435.20 kJ"
+    ],
+    "answer": 3,
+    "explanation": "현열 Q = mcΔT. 질량 22 kg × 비열 4.2 kJ/(kg·K) × 온도차 16 K = 1478.40 kJ. 온도차 1 K는 온도차 1 ℃와 같다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "sensible",
+    "calculation": {
+      "kind": "sensible",
+      "values": [
+        22,
+        4.2,
+        16
+      ],
+      "result": 1478.4,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-efficiency-06",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "보일러 효율",
+    "question": "보일러 연료 투입 열량은 1600 kJ이고 열효율은 72%이다. 유효하게 이용한 열량은?",
+    "choices": [
+      "576.00 kJ",
+      "1728.00 kJ",
+      "1152.00 kJ",
+      "3456.00 kJ"
+    ],
+    "answer": 3,
+    "explanation": "효율 = 유효 열량 / 투입 열량 × 100. 유효 열량 = 1600 × 72/100 = 1152.00 kJ.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "efficiency",
+    "calculation": {
+      "kind": "efficiency",
+      "values": [
+        1600,
+        72
+      ],
+      "result": 1152.0,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-fuel-06",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "연료 열량",
+    "question": "저위발열량 42,000 kJ/kg인 연료 26 kg이 완전 연소한다. 저위발열량 기준 투입 열량은?",
+    "choices": [
+      "546000.00 kJ",
+      "1638000.00 kJ",
+      "1092000.00 kJ",
+      "3276000.00 kJ"
+    ],
+    "answer": 3,
+    "explanation": "투입 열량 = 연료 질량 × 저위발열량 = 26 kg × 42,000 kJ/kg = 1092000.00 kJ. 보일러의 실제 유효 열량은 효율을 별도로 반영한다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "fuel",
+    "calculation": {
+      "kind": "fuel",
+      "values": [
+        26,
+        42000
+      ],
+      "result": 1092000,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-pressure-06",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "압력",
+    "question": "면적 8 m²에 수직으로 균일한 힘 1280 kN이 작용한다. 이 힘에 의한 압력은?",
+    "choices": [
+      "80.00 kPa",
+      "240.00 kPa",
+      "160.00 kPa",
+      "480.00 kPa"
+    ],
+    "answer": 3,
+    "explanation": "압력 p = F/A = 1280 kN / 8 m² = 160.00 kPa. 1 kN/m² = 1 kPa이다. 절대압력과 게이지압력의 변환 문제는 아니다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "pressure",
+    "calculation": {
+      "kind": "pressure",
+      "values": [
+        1280,
+        8
+      ],
+      "result": 160.0,
+      "unit": "kPa",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-flow-06",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "유량",
+    "question": "체적 유량 16 m³/h가 8시간 동안 일정하게 유지된다. 통과한 유체의 체적은?",
+    "choices": [
+      "64.00 m³",
+      "192.00 m³",
+      "128.00 m³",
+      "384.00 m³"
+    ],
+    "answer": 3,
+    "explanation": "체적 V = 체적 유량 × 시간 = 16 m³/h × 8 h = 128.00 m³. 누설 없이 유량이 일정한 조건이다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "flow",
+    "calculation": {
+      "kind": "flow",
+      "values": [
+        16,
+        8
+      ],
+      "result": 128,
+      "unit": "m³",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-power-06",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "열출력",
+    "question": "일정한 열출력 11 kW인 가열기가 8시간 작동한다. 방출한 총 열량은?",
+    "choices": [
+      "158400.00 kJ",
+      "475200.00 kJ",
+      "316800.00 kJ",
+      "950400.00 kJ"
+    ],
+    "answer": 3,
+    "explanation": "1 kW = 1 kJ/s이고 8 h = 28800 s. Q = 출력 × 시간 = 11 × 28800 = 316800.00 kJ. 대상 물체의 흡수 열량은 손실에 따라 다를 수 있다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "power",
+    "calculation": {
+      "kind": "power",
+      "values": [
+        11,
+        8
+      ],
+      "result": 316800,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-sensible-07",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "현열",
+    "question": "물 24 kg을 17 K만큼 가열한다. 비열은 4.2 kJ/(kg·K)로 일정하고 증발과 열손실이 없을 때 필요한 열량은?",
+    "choices": [
+      "856.80 kJ",
+      "2570.40 kJ",
+      "3427.20 kJ",
+      "1713.60 kJ"
+    ],
+    "answer": 4,
+    "explanation": "현열 Q = mcΔT. 질량 24 kg × 비열 4.2 kJ/(kg·K) × 온도차 17 K = 1713.60 kJ. 온도차 1 K는 온도차 1 ℃와 같다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "sensible",
+    "calculation": {
+      "kind": "sensible",
+      "values": [
+        24,
+        4.2,
+        17
+      ],
+      "result": 1713.6000000000001,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-efficiency-07",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "보일러 효율",
+    "question": "보일러 연료 투입 열량은 1700 kJ이고 열효율은 74%이다. 유효하게 이용한 열량은?",
+    "choices": [
+      "629.00 kJ",
+      "1887.00 kJ",
+      "2516.00 kJ",
+      "1258.00 kJ"
+    ],
+    "answer": 4,
+    "explanation": "효율 = 유효 열량 / 투입 열량 × 100. 유효 열량 = 1700 × 74/100 = 1258.00 kJ.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "efficiency",
+    "calculation": {
+      "kind": "efficiency",
+      "values": [
+        1700,
+        74
+      ],
+      "result": 1258.0,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-fuel-07",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "연료 열량",
+    "question": "저위발열량 42,000 kJ/kg인 연료 27 kg이 완전 연소한다. 저위발열량 기준 투입 열량은?",
+    "choices": [
+      "567000.00 kJ",
+      "1701000.00 kJ",
+      "2268000.00 kJ",
+      "1134000.00 kJ"
+    ],
+    "answer": 4,
+    "explanation": "투입 열량 = 연료 질량 × 저위발열량 = 27 kg × 42,000 kJ/kg = 1134000.00 kJ. 보일러의 실제 유효 열량은 효율을 별도로 반영한다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "fuel",
+    "calculation": {
+      "kind": "fuel",
+      "values": [
+        27,
+        42000
+      ],
+      "result": 1134000,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-pressure-07",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "압력",
+    "question": "면적 9 m²에 수직으로 균일한 힘 1530 kN이 작용한다. 이 힘에 의한 압력은?",
+    "choices": [
+      "85.00 kPa",
+      "255.00 kPa",
+      "340.00 kPa",
+      "170.00 kPa"
+    ],
+    "answer": 4,
+    "explanation": "압력 p = F/A = 1530 kN / 9 m² = 170.00 kPa. 1 kN/m² = 1 kPa이다. 절대압력과 게이지압력의 변환 문제는 아니다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "pressure",
+    "calculation": {
+      "kind": "pressure",
+      "values": [
+        1530,
+        9
+      ],
+      "result": 170.0,
+      "unit": "kPa",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-flow-07",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "유량",
+    "question": "체적 유량 17 m³/h가 9시간 동안 일정하게 유지된다. 통과한 유체의 체적은?",
+    "choices": [
+      "76.50 m³",
+      "229.50 m³",
+      "306.00 m³",
+      "153.00 m³"
+    ],
+    "answer": 4,
+    "explanation": "체적 V = 체적 유량 × 시간 = 17 m³/h × 9 h = 153.00 m³. 누설 없이 유량이 일정한 조건이다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "flow",
+    "calculation": {
+      "kind": "flow",
+      "values": [
+        17,
+        9
+      ],
+      "result": 153,
+      "unit": "m³",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-power-07",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "열출력",
+    "question": "일정한 열출력 12 kW인 가열기가 9시간 작동한다. 방출한 총 열량은?",
+    "choices": [
+      "194400.00 kJ",
+      "583200.00 kJ",
+      "777600.00 kJ",
+      "388800.00 kJ"
+    ],
+    "answer": 4,
+    "explanation": "1 kW = 1 kJ/s이고 9 h = 32400 s. Q = 출력 × 시간 = 12 × 32400 = 388800.00 kJ. 대상 물체의 흡수 열량은 손실에 따라 다를 수 있다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "power",
+    "calculation": {
+      "kind": "power",
+      "values": [
+        12,
+        9
+      ],
+      "result": 388800,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-sensible-08",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "현열",
+    "question": "물 26 kg을 18 K만큼 가열한다. 비열은 4.2 kJ/(kg·K)로 일정하고 증발과 열손실이 없을 때 필요한 열량은?",
+    "choices": [
+      "1965.60 kJ",
+      "2948.40 kJ",
+      "3931.20 kJ",
+      "5896.80 kJ"
+    ],
+    "answer": 1,
+    "explanation": "현열 Q = mcΔT. 질량 26 kg × 비열 4.2 kJ/(kg·K) × 온도차 18 K = 1965.60 kJ. 온도차 1 K는 온도차 1 ℃와 같다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "sensible",
+    "calculation": {
+      "kind": "sensible",
+      "values": [
+        26,
+        4.2,
+        18
+      ],
+      "result": 1965.6000000000001,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-efficiency-08",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "보일러 효율",
+    "question": "보일러 연료 투입 열량은 1800 kJ이고 열효율은 76%이다. 유효하게 이용한 열량은?",
+    "choices": [
+      "1368.00 kJ",
+      "2052.00 kJ",
+      "2736.00 kJ",
+      "4104.00 kJ"
+    ],
+    "answer": 1,
+    "explanation": "효율 = 유효 열량 / 투입 열량 × 100. 유효 열량 = 1800 × 76/100 = 1368.00 kJ.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "efficiency",
+    "calculation": {
+      "kind": "efficiency",
+      "values": [
+        1800,
+        76
+      ],
+      "result": 1368.0,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-fuel-08",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "연료 열량",
+    "question": "저위발열량 42,000 kJ/kg인 연료 28 kg이 완전 연소한다. 저위발열량 기준 투입 열량은?",
+    "choices": [
+      "1176000.00 kJ",
+      "1764000.00 kJ",
+      "2352000.00 kJ",
+      "3528000.00 kJ"
+    ],
+    "answer": 1,
+    "explanation": "투입 열량 = 연료 질량 × 저위발열량 = 28 kg × 42,000 kJ/kg = 1176000.00 kJ. 보일러의 실제 유효 열량은 효율을 별도로 반영한다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "fuel",
+    "calculation": {
+      "kind": "fuel",
+      "values": [
+        28,
+        42000
+      ],
+      "result": 1176000,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-pressure-08",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "압력",
+    "question": "면적 10 m²에 수직으로 균일한 힘 1800 kN이 작용한다. 이 힘에 의한 압력은?",
+    "choices": [
+      "180.00 kPa",
+      "270.00 kPa",
+      "360.00 kPa",
+      "540.00 kPa"
+    ],
+    "answer": 1,
+    "explanation": "압력 p = F/A = 1800 kN / 10 m² = 180.00 kPa. 1 kN/m² = 1 kPa이다. 절대압력과 게이지압력의 변환 문제는 아니다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "pressure",
+    "calculation": {
+      "kind": "pressure",
+      "values": [
+        1800,
+        10
+      ],
+      "result": 180.0,
+      "unit": "kPa",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-flow-08",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "유량",
+    "question": "체적 유량 18 m³/h가 10시간 동안 일정하게 유지된다. 통과한 유체의 체적은?",
+    "choices": [
+      "180.00 m³",
+      "270.00 m³",
+      "360.00 m³",
+      "540.00 m³"
+    ],
+    "answer": 1,
+    "explanation": "체적 V = 체적 유량 × 시간 = 18 m³/h × 10 h = 180.00 m³. 누설 없이 유량이 일정한 조건이다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "flow",
+    "calculation": {
+      "kind": "flow",
+      "values": [
+        18,
+        10
+      ],
+      "result": 180,
+      "unit": "m³",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-power-08",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "열출력",
+    "question": "일정한 열출력 13 kW인 가열기가 10시간 작동한다. 방출한 총 열량은?",
+    "choices": [
+      "468000.00 kJ",
+      "702000.00 kJ",
+      "936000.00 kJ",
+      "1404000.00 kJ"
+    ],
+    "answer": 1,
+    "explanation": "1 kW = 1 kJ/s이고 10 h = 36000 s. Q = 출력 × 시간 = 13 × 36000 = 468000.00 kJ. 대상 물체의 흡수 열량은 손실에 따라 다를 수 있다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "power",
+    "calculation": {
+      "kind": "power",
+      "values": [
+        13,
+        10
+      ],
+      "result": 468000,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-sensible-09",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "현열",
+    "question": "물 28 kg을 19 K만큼 가열한다. 비열은 4.2 kJ/(kg·K)로 일정하고 증발과 열손실이 없을 때 필요한 열량은?",
+    "choices": [
+      "1117.20 kJ",
+      "2234.40 kJ",
+      "4468.80 kJ",
+      "6703.20 kJ"
+    ],
+    "answer": 2,
+    "explanation": "현열 Q = mcΔT. 질량 28 kg × 비열 4.2 kJ/(kg·K) × 온도차 19 K = 2234.40 kJ. 온도차 1 K는 온도차 1 ℃와 같다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "sensible",
+    "calculation": {
+      "kind": "sensible",
+      "values": [
+        28,
+        4.2,
+        19
+      ],
+      "result": 2234.4,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-efficiency-09",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "보일러 효율",
+    "question": "보일러 연료 투입 열량은 1900 kJ이고 열효율은 78%이다. 유효하게 이용한 열량은?",
+    "choices": [
+      "741.00 kJ",
+      "1482.00 kJ",
+      "2964.00 kJ",
+      "4446.00 kJ"
+    ],
+    "answer": 2,
+    "explanation": "효율 = 유효 열량 / 투입 열량 × 100. 유효 열량 = 1900 × 78/100 = 1482.00 kJ.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "efficiency",
+    "calculation": {
+      "kind": "efficiency",
+      "values": [
+        1900,
+        78
+      ],
+      "result": 1482.0,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-fuel-09",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "연료 열량",
+    "question": "저위발열량 42,000 kJ/kg인 연료 29 kg이 완전 연소한다. 저위발열량 기준 투입 열량은?",
+    "choices": [
+      "609000.00 kJ",
+      "1218000.00 kJ",
+      "2436000.00 kJ",
+      "3654000.00 kJ"
+    ],
+    "answer": 2,
+    "explanation": "투입 열량 = 연료 질량 × 저위발열량 = 29 kg × 42,000 kJ/kg = 1218000.00 kJ. 보일러의 실제 유효 열량은 효율을 별도로 반영한다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "fuel",
+    "calculation": {
+      "kind": "fuel",
+      "values": [
+        29,
+        42000
+      ],
+      "result": 1218000,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-pressure-09",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "압력",
+    "question": "면적 11 m²에 수직으로 균일한 힘 2090 kN이 작용한다. 이 힘에 의한 압력은?",
+    "choices": [
+      "95.00 kPa",
+      "190.00 kPa",
+      "380.00 kPa",
+      "570.00 kPa"
+    ],
+    "answer": 2,
+    "explanation": "압력 p = F/A = 2090 kN / 11 m² = 190.00 kPa. 1 kN/m² = 1 kPa이다. 절대압력과 게이지압력의 변환 문제는 아니다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "pressure",
+    "calculation": {
+      "kind": "pressure",
+      "values": [
+        2090,
+        11
+      ],
+      "result": 190.0,
+      "unit": "kPa",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-flow-09",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "유량",
+    "question": "체적 유량 19 m³/h가 11시간 동안 일정하게 유지된다. 통과한 유체의 체적은?",
+    "choices": [
+      "104.50 m³",
+      "209.00 m³",
+      "418.00 m³",
+      "627.00 m³"
+    ],
+    "answer": 2,
+    "explanation": "체적 V = 체적 유량 × 시간 = 19 m³/h × 11 h = 209.00 m³. 누설 없이 유량이 일정한 조건이다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "flow",
+    "calculation": {
+      "kind": "flow",
+      "values": [
+        19,
+        11
+      ],
+      "result": 209,
+      "unit": "m³",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-power-09",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "열출력",
+    "question": "일정한 열출력 14 kW인 가열기가 11시간 작동한다. 방출한 총 열량은?",
+    "choices": [
+      "277200.00 kJ",
+      "554400.00 kJ",
+      "1108800.00 kJ",
+      "1663200.00 kJ"
+    ],
+    "answer": 2,
+    "explanation": "1 kW = 1 kJ/s이고 11 h = 39600 s. Q = 출력 × 시간 = 14 × 39600 = 554400.00 kJ. 대상 물체의 흡수 열량은 손실에 따라 다를 수 있다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "power",
+    "calculation": {
+      "kind": "power",
+      "values": [
+        14,
+        11
+      ],
+      "result": 554400,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-sensible-10",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "현열",
+    "question": "물 30 kg을 20 K만큼 가열한다. 비열은 4.2 kJ/(kg·K)로 일정하고 증발과 열손실이 없을 때 필요한 열량은?",
+    "choices": [
+      "1260.00 kJ",
+      "3780.00 kJ",
+      "2520.00 kJ",
+      "7560.00 kJ"
+    ],
+    "answer": 3,
+    "explanation": "현열 Q = mcΔT. 질량 30 kg × 비열 4.2 kJ/(kg·K) × 온도차 20 K = 2520.00 kJ. 온도차 1 K는 온도차 1 ℃와 같다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "sensible",
+    "calculation": {
+      "kind": "sensible",
+      "values": [
+        30,
+        4.2,
+        20
+      ],
+      "result": 2520.0,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-efficiency-10",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "보일러 효율",
+    "question": "보일러 연료 투입 열량은 2000 kJ이고 열효율은 80%이다. 유효하게 이용한 열량은?",
+    "choices": [
+      "800.00 kJ",
+      "2400.00 kJ",
+      "1600.00 kJ",
+      "4800.00 kJ"
+    ],
+    "answer": 3,
+    "explanation": "효율 = 유효 열량 / 투입 열량 × 100. 유효 열량 = 2000 × 80/100 = 1600.00 kJ.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "efficiency",
+    "calculation": {
+      "kind": "efficiency",
+      "values": [
+        2000,
+        80
+      ],
+      "result": 1600.0,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-fuel-10",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "연료 열량",
+    "question": "저위발열량 42,000 kJ/kg인 연료 30 kg이 완전 연소한다. 저위발열량 기준 투입 열량은?",
+    "choices": [
+      "630000.00 kJ",
+      "1890000.00 kJ",
+      "1260000.00 kJ",
+      "3780000.00 kJ"
+    ],
+    "answer": 3,
+    "explanation": "투입 열량 = 연료 질량 × 저위발열량 = 30 kg × 42,000 kJ/kg = 1260000.00 kJ. 보일러의 실제 유효 열량은 효율을 별도로 반영한다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "fuel",
+    "calculation": {
+      "kind": "fuel",
+      "values": [
+        30,
+        42000
+      ],
+      "result": 1260000,
+      "unit": "kJ",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-pressure-10",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "압력",
+    "question": "면적 12 m²에 수직으로 균일한 힘 2400 kN이 작용한다. 이 힘에 의한 압력은?",
+    "choices": [
+      "100.00 kPa",
+      "300.00 kPa",
+      "200.00 kPa",
+      "600.00 kPa"
+    ],
+    "answer": 3,
+    "explanation": "압력 p = F/A = 2400 kN / 12 m² = 200.00 kPa. 1 kN/m² = 1 kPa이다. 절대압력과 게이지압력의 변환 문제는 아니다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "pressure",
+    "calculation": {
+      "kind": "pressure",
+      "values": [
+        2400,
+        12
+      ],
+      "result": 200.0,
+      "unit": "kPa",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-flow-10",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "유량",
+    "question": "체적 유량 20 m³/h가 12시간 동안 일정하게 유지된다. 통과한 유체의 체적은?",
+    "choices": [
+      "120.00 m³",
+      "360.00 m³",
+      "240.00 m³",
+      "720.00 m³"
+    ],
+    "answer": 3,
+    "explanation": "체적 V = 체적 유량 × 시간 = 20 m³/h × 12 h = 240.00 m³. 누설 없이 유량이 일정한 조건이다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "flow",
+    "calculation": {
+      "kind": "flow",
+      "values": [
+        20,
+        12
+      ],
+      "result": 240,
+      "unit": "m³",
+      "precision": 2
+    }
+  },
+  {
+    "id": "ENERGY-power-10",
+    "subject": "열설비 설치·운전 및 관리",
+    "topic": "열출력",
+    "question": "일정한 열출력 15 kW인 가열기가 12시간 작동한다. 방출한 총 열량은?",
+    "choices": [
+      "324000.00 kJ",
+      "972000.00 kJ",
+      "648000.00 kJ",
+      "1944000.00 kJ"
+    ],
+    "answer": 3,
+    "explanation": "1 kW = 1 kJ/s이고 12 h = 43200 s. Q = 출력 × 시간 = 15 × 43200 = 648000.00 kJ. 대상 물체의 흡수 열량은 손실에 따라 다를 수 있다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Energy-Management-CBT/blob/main/docs/question-review.md",
+    "verificationStatus": "reviewed",
+    "reviewNote": "AI 일반 지식으로 작성. 조건·단위·공식·해설 문장 내부 검토 및 독립 역산 테스트. 외부 전문가 검수·공식 출제기준 대조 미완료.",
+    "version": "main",
+    "rights": "본 프로젝트 자체 제작 · CC BY 4.0 · 출처 표시 및 변경 표시",
+    "family": "power",
+    "calculation": {
+      "kind": "power",
+      "values": [
+        15,
+        12
+      ],
+      "result": 648000,
+      "unit": "kJ",
+      "precision": 2
+    }
+  }
+]
